@@ -5,6 +5,7 @@ import ExampleHook1 from './Forms/ExampleHook1';
 import ExampleUseRef1 from './Forms/ExampleUseRef1';
 import ExampleUseRef2 from './Forms/ExampleUseRef2';
 import Calculator from './Forms/Calculator';
+import Datafetch1 from './Forms/Datafetch1';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
     {/* <ExampleHook1></ExampleHook1>  */}
     {/* <ExampleUseRef1></ExampleUseRef1> */}
     {/* <ExampleUseRef2></ExampleUseRef2> */}
-     <Calculator></Calculator>
+     {/* <Calculator></Calculator> */}
+     <Datafetch1></Datafetch1>
+     
 
     </div>
   );
