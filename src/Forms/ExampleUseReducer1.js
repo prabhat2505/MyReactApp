@@ -11,6 +11,7 @@ function ExampleUseReducer1() {
       return state + 1;
       else
       return state - 1;
+      return state;
     }
     const [state,dispatch]=useReducer(reducer,initialState);
    
