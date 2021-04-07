@@ -8,6 +8,7 @@ import Calculator from './Forms/Calculator';
 import Datafetch1 from './Forms/Datafetch1';
 import ExampleUseReducer1 from './Forms/ExampleUseReducer1';
 import ArrayMap from './Forms/ArrayMap';
+import GetDataInSateMap from './Forms/GetaDataInSateMap';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
      {/* <Calculator></Calculator> */}
      {/* <Datafetch1></Datafetch1> */}
      {/* <ExampleUseReducer1></ExampleUseReducer1> */}
-     <ArrayMap></ArrayMap>
+     {/* <ArrayMap></ArrayMap> */}
+     <GetDataInSateMap/>
      
 
     </div>
