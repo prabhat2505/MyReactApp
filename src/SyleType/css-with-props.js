@@ -5,6 +5,7 @@ const FormControl=styled.div`
 
 & input{
     border:1px solid ${props=>(props.invalid ? 'red' : '#ccc')};
+    background:${props=>props.invalid ? 'red' : '#ccc'};
 }
 `;
 function CssWithProps() {
